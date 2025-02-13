@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rotas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+892508b3a99bc6fc903955cc0d1de9b94b9299ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rotas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rotas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

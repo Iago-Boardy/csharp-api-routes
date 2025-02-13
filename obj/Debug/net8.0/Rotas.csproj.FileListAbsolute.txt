@@ -34,3 +34,4 @@ C:\Users\iagog\source\repos\Rotas\Rotas\obj\Debug\net8.0\refint\Rotas.dll
 C:\Users\iagog\source\repos\Rotas\Rotas\obj\Debug\net8.0\Rotas.pdb
 C:\Users\iagog\source\repos\Rotas\Rotas\obj\Debug\net8.0\Rotas.genruntimeconfig.cache
 C:\Users\iagog\source\repos\Rotas\Rotas\obj\Debug\net8.0\ref\Rotas.dll
+C:\Users\iagog\source\repos\Rotas\Rotas\obj\Debug\net8.0\Rotas.sourcelink.json

@@ -32,6 +32,42 @@
   },
   {
     "ContainingType": "Rotas.Controllers.HomeController",
+    "Method": "EnviarArquivo",
+    "RelativePath": "Home/file-receiver",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Rotas.Controllers.HomeController",
     "Method": "HelloWorld",
     "RelativePath": "Home/hello-world",
     "HttpMethod": "GET",
@@ -41,6 +77,32 @@
     "ReturnTypes": [
       {
         "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Rotas.Controllers.HomeController",
+    "Method": "ExemploPost",
+    "RelativePath": "Home/insere-aluno",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Rotas.Models.HomeInsereAlunoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Rotas.Models.HomeInsereAlunoResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
