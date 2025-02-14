@@ -37,9 +37,7 @@ namespace Rotas.Controllers
         }
 
         [HttpPost("file-receiver")]
-        public bool EnviarArquivo(
-            [FromForm] HomeFileRequest request
-            )
+        public bool EnviarArquivo([FromForm] HomeFileRequest request)
         {
             var stream = request.File.OpenReadStream(); //Aqui abrimos o arquivo, o explorador de arquivos
             return true;
